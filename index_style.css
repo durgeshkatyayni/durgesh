@@ -1,0 +1,599 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 700px;
+    background-color: #A99999;
+}
+
+.container header
+{
+    width: 100%;
+    height: auto;
+    background-color: #FA9494;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.menu-bar
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar ul
+{
+    display: flex;
+    list-style: none;
+}
+
+.menu-bar ul li
+{
+    height: 100%;
+    padding: 5px 20px;
+}
+
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    display: block;
+}
+
+.menu-up
+{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.menu-icon
+{
+    display: none;
+    background-color: slategray;
+}
+
+.menu-icon li
+{
+    font-size: 2rem;
+    margin: 10px auto;
+    color: white;
+}
+
+
+/* mid content code from here */
+
+.mid-content
+{
+    width: 100%;
+    background-color: #57BE9A;
+    margin: 0 auto;
+}
+
+.welcome-page
+{
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-page h2
+{
+    font-size: 2rem;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.welcome-page p
+{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    padding: 20px 130px;
+}
+
+.welcome-page a
+{
+    font-size: 1.3rem;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.welcome-page a:hover
+{
+    border: 2px solid orangered;
+    color: white;
+    background-color: black;
+}
+
+/* code for about section  */
+
+.about-page
+{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-page h2
+{
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
+
+.about-container
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.about-info
+{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-info h4
+{
+    font-size: 1.5rem;
+    margin: 15px auto;
+}
+
+.about-info p
+{
+    font-size: 1.2rem;
+    line-height: 30px;
+}
+
+.about-img
+{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-img img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* service area css code */
+
+.service-area
+{
+    width: 100%;
+    background-color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-area h3
+{
+    font-size: 1.5rem;
+    margin: 20px auto;
+    color: white;
+}
+
+.service-card-container
+{
+    width: 96%;
+    height: auto;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-card
+{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+
+.service-card li
+{
+    margin: 10px auto;
+    font-size: 2rem;
+}
+
+.service-card h4
+{
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.service-card p
+{
+    margin: 10px 15px;
+    text-align: justify;
+}
+
+/* code for contact form */
+
+.contact-area
+{
+    width: 100%;
+    height: auto;
+    background-color: #AAADC6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-area h3
+{
+    font-size: 1.5rem;
+    margin: 20px auto;
+}
+
+.contact-form
+{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.contact-form form
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-element
+{
+    width: 90%;
+    height: 50px;
+    margin: 10px auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+#submit
+{
+    background-color: white;
+}
+
+#submit:hover
+{
+    background-color: black;
+    color: white
+}
+#name
+{
+    font-size: 1.2rem;
+    /* padding: 10px; */
+}
+
+#email
+{
+    font-size: 1.2rem;
+    /* padding: 10px; */
+}
+
+#message
+{
+    height: 200px;
+    font-size: 1.2rem;
+    /* padding: 10px; */
+}
+
+/* code for footer */
+
+.footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: #7F088C;
+    display: flex; 
+    flex-direction: row-reverse;
+    align-items: center;
+}
+.social-media-link
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-media-link a
+{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-icon:hover
+{
+    background-color: red;
+}
+
+.facebook-icon:hover
+{
+    background-color: #5E65B9;
+}
+
+.youtube-icon:hover
+{
+    background-color: #B70A0A;
+}
+
+.github-icon:hover
+{
+    background-color: black;
+}
+
+.copy-right
+{
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* code for go up */
+
+.go-up
+{
+    width: 50px;
+    height: 50px;
+    background-color: #6A74DE;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-up a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+}
+
+/* side social media link css */
+
+.social-link
+{
+    width: 50px;
+    background-color: transparent;
+    text-align: center;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 100px;
+    color: white;
+}
+
+.social-link li
+{
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+#google
+{
+    background-color: red;
+}
+
+#facebook
+{
+    background-color: blue;
+}
+#github
+{
+    background-color: black;
+}
+#instagram
+{
+    background-color: white;
+    color: red;
+}
+#telegram
+{
+    background-color: #2A90EF;
+}
+#skype
+{
+    background-color: #0064C0;
+}
+
+/* media query for mobile */
+
+@media only screen and (max-width: 400px)
+{
+    .container header
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .menu-up
+    {
+        width: 100%;
+    }
+    
+    .logo
+    {
+        width: 80%;
+    }
+    .menu-bar
+    {
+        width: 100%;
+        display: none;
+        background-color: dimgray;
+        text-align: center;
+    }
+    
+    .menu-bar ul
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .menu-bar ul li a
+    {
+        width: 100%;
+    }
+    
+    .menu-icon
+    {
+        width: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: right;
+        justify-content: center;
+    }
+    
+    .menu-icon:hover
+    {
+        background-color: dimgray;
+    }
+    
+    .social-link
+    {
+        display: none;
+    }
+    
+    .welcome-page p
+    {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+        padding: 20px 30px;
+    }
+    
+    /* mobile code for about */
+     
+    .about-container
+    {
+        flex-direction: column-reverse;
+    }
+    
+    .about-info
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .about-img
+    {
+        width: 100%;
+    }
+    
+    /* service code for mobile */
+    
+    .service-card-container
+    {
+        flex-direction: column;
+    }
+    
+    .service-card
+    {
+        width: 80%;
+    }
+    
+    /* contact form for mobile device */
+    
+    .contact-form
+    {
+        width: 95%;
+    }
+    
+    .footer
+    {
+        height: 150px;
+        flex-direction: column;
+    }
+    
+    .copy-right
+    {
+        width: 100%;
+    }
+    
+    .social-media-link
+    {
+        width: 100%;
+    }
+}
